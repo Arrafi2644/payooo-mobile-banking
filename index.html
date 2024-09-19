@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payooo Mobile Bank</title>
+    <!-- Daisy ui + tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <main class="flex items-center">
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+             
+              <div class="artboard artboard-demo phone-1">
+                      <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <h2 class="text-2xl mt-2 font-semibold text-center">Login</h2>
+                        <form class="card-body">
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">Account Number</span>
+                            </label>
+                            <input id="account-number-input" type="text" placeholder="Account Number" class="input input-bordered" required />
+                          </div>
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">Payooo Pin</span>
+                            </label>
+                            <input id="payooo-pin" type="password" placeholder="Payooo Pin" class="input input-bordered" required />
+                            <label class="label">
+                              <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                            </label>
+                          </div>
+                          <div class="form-control mt-6">
+                            <button id="login-btn" class="btn btn-primary">Login</button>
+                          </div>
+                        </form>
+                      </div>
+
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+</html>
